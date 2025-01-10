@@ -7,5 +7,5 @@ setInterval(() => {
     posY += 5;
     box.style.left = posX + "px";
     box.style.top = posY + "px";
-    box.style.width = 50 + Math.sin(posX / 10) * 20 + "px";  // Зміна розміру
+    box.style.width = 50 + Math.sin(posX / 10) * 20 + "px";  
 }, 100);
